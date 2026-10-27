@@ -54,3 +54,4 @@ FIXME [Como fazer para jogar?]
 - [Renan Azevedo](https://github.com/MrRBAzevedo)
 - [Vitor Emidio](https://github.com/VoiidHead)
 - [Mateus "C?" Lemos](https://github.com/archangello)
+- [Miguel Alexandre](https://github.com/M1guel_Alexandre)
