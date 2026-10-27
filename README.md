@@ -60,3 +60,4 @@ FIXME [Como fazer para jogar?]
 - [Lorena](https://github.com/Lores034)
 - [Davi Az.](https://github.com/Mazvedo)
 - [kristhyan](https://github.com/kristhyanlima-svg)
+- [jeladu-lindu](https://github.com/jvsziinn)
