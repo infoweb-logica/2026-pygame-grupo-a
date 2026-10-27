@@ -47,6 +47,7 @@ FIXME [Como fazer para jogar?]
 ---
 ## Equipe
 - [Leonardo Ataide Minora](https://github.com/leonardo-minora)
+- [Lucas Gabriel](https://github.com/Adicide)
 - [Luiz Heytor](https://github.com/NoxHG)
 - [Ravi Rodrigues](https://github.com/raviaguiar)
 - [Renan Azevedo](https://github.com/MrRBAzevedo)
