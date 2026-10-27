@@ -5,7 +5,7 @@
 2. Clonar o repositório do github e aceitar abrir o projeto na janela atual
    - Pressionar `CTRL+P`
    - Digitar `git: clone` e pressionar `ENTER`
-   - Copiar a URL `https://github.com/infoweb-logica/2026-pratica-de-desenvolvimento-em-equipe/` e pressionar `ENTER`
+   - Copiar a URL `https://github.com/infoweb-logica/2026-pygame-grupo-a.git` e pressionar `ENTER`
 3. Abrir o terminal e configurar nome e email github
    - Pressionar `CTRL+SHIFT+'`
    - Digitar `git config user.name "NOME"` e pressionar `ENTER`
