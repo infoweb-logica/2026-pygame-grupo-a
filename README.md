@@ -47,6 +47,7 @@ FIXME [Como fazer para jogar?]
 ---
 ## Equipe
 - [Davi Az.](https://github.com/Mazvedo)
+- [isadora](https://github.com/isadoralidynara)
 - [João Gabriel](https://github.com/jvsziinn)
 - [Kaun](https://github.com/kkauankauan19x)
 - [Kristhyan](https://github.com/kristhyanlima-svg)
@@ -57,10 +58,9 @@ FIXME [Como fazer para jogar?]
 - [Luyza](https://github.com/mari1aluyza)
 - [Mateus "C?" Lemos](https://github.com/archangello)
 - [Miguel Alexandre](https://github.com/M1guel_Alexandre)
+- [Moisés](https://github.com/kjzeyss)
 - [Ravi Rodrigues](https://github.com/raviaguiar)
 - [Renan Azevedo](https://github.com/MrRBAzevedo)
 - [Sara](https://github.com/hilflerty)
 - [Vitor Carvalho](https://github.com/Vaert4201)
 - [Vitor Emidio](https://github.com/VoiidHead)
-- [isadora](https://github.com/isadoralidynara)
-- [Moisés](https://github.com/kjzeyss)
