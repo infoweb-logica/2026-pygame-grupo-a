@@ -46,3 +46,5 @@ FIXME [Como fazer para jogar?]
 
 ---
 ## Equipe
+
+- [Leonardo Ataide Minora](https://github.com/leonardo-minora)
