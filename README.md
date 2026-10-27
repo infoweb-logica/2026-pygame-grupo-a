@@ -58,3 +58,4 @@ FIXME [Como fazer para jogar?]
 - [kaka00000111](https://github.com/kkauankauan19x)
 - [luyza](https://github.com/mari1aluyza)
 - [Lorena](https://github.com/Lores034)
+- [Davi Az.](https://github.com/Mazvedo)
