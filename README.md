@@ -61,3 +61,4 @@ FIXME [Como fazer para jogar?]
 - [Renan Azevedo](https://github.com/MrRBAzevedo)
 - [Vitor Carvalho](https://github.com/Vaert4201)
 - [Vitor Emidio](https://github.com/VoiidHead)
+- [Sara](https://github.com/hilflerty)
