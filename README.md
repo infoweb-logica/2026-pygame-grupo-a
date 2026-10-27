@@ -46,5 +46,5 @@ FIXME [Como fazer para jogar?]
 
 ---
 ## Equipe
-
+- [Ravi Rodrigues](https://github.com/raviaguiar)
 - [Leonardo Ataide Minora](https://github.com/leonardo-minora)
