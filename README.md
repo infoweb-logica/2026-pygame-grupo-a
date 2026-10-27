@@ -56,3 +56,4 @@ FIXME [Como fazer para jogar?]
 - [Mateus "C?" Lemos](https://github.com/archangello)
 - [Miguel Alexandre](https://github.com/M1guel_Alexandre)
 - [kaka00000111](https://github.com/kkauankauan19x)
+- [luyza](https://github.com/mari1aluyza)
