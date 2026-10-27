@@ -52,3 +52,4 @@ FIXME [Como fazer para jogar?]
 - [Luiz Heytor](https://github.com/NoxHG)
 - [Ravi Rodrigues](https://github.com/raviaguiar)
 - [Renan Azevedo](https://github.com/MrRBAzevedo)
+- [Vitor Emidio](https://github.com/VoiidHead)
