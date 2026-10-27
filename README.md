@@ -57,3 +57,4 @@ FIXME [Como fazer para jogar?]
 - [Miguel Alexandre](https://github.com/M1guel_Alexandre)
 - [kaka00000111](https://github.com/kkauankauan19x)
 - [luyza](https://github.com/mari1aluyza)
+- [Lorena](https://github.com/Lores034)
