@@ -59,3 +59,4 @@ FIXME [Como fazer para jogar?]
 - [luyza](https://github.com/mari1aluyza)
 - [Lorena](https://github.com/Lores034)
 - [Davi Az.](https://github.com/Mazvedo)
+- [kristhyan](https://github.com/kristhyanlima-svg)
