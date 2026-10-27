@@ -63,3 +63,4 @@ FIXME [Como fazer para jogar?]
 - [Vitor Carvalho](https://github.com/Vaert4201)
 - [Vitor Emidio](https://github.com/VoiidHead)
 - [isadora](https://github.com/isadoralidynara)
+- [Moisés](https://github.com/kjzeyss)
