@@ -26,49 +26,6 @@ O jogo será baseado em uma mecânica de luta em turnos entre dois jogadores, se
 
 FIXME [Um paragráfo descrevendo o tipo do jogo e suas metáforas]
 
-FIXME [O que faz o jogador ganhar? O que faz perder?]
-
-[referência de outros jogos]
-   - Jogos de turno da franquia Pokémon
-   - Seleção de personagens e mapas como em jogos de luta (Street Fighter, Mortal Kombat, ...)
-
-### Design do jogo
-
-FIXME [Link para o figma] ou [Rascunhos das telas em papel]
-
-FIXME [Elementos áudio visuais do jogo (sprites, fundos, etc) são autorais ou de terceiros? construídos ou baixados de qual lugar?]
-
-FIXME [Descreva a jogabilidade]
-
-FIXME [Qual a engine ([pygame](https://www.pygame.org/), [pygame zero](https://pygame-zero.readthedocs.io/), [godot](https://godotengine.org/), [unreal](https://www.unrealengine.com/), [unity](https://unity.com/), [GameMaker](https://gamemaker.io/), [construct](https://www.construct.net/), [love2d](https://love2d.org/), [cry engine](https://www.cryengine.com/), [gideros](https://www.gideros.rocks/))? Por que escolheram a engine?]
-
-### Demo do jogo
-
-FIXME [Vídeo do jogo]
-
-FIXME [Como fazer para jogar?]
-
----
-## Equipe
-- [Davi Az.](https://github.com/Mazvedo) 
-- [isadora](https://github.com/isadoralidynara)
-- [João Gabriel](https://github.com/jvsziinn)
-- [Kaun](https://github.com/kkauankauan19x)
-- [Kristhyan](https://github.com/kristhyanlima-svg)
-- [Leonardo Ataide Minora](https://github.com/leonardo-minora)
-- [Lorena](https://github.com/Lores034)
-- [Lucas Gabriel](https://github.com/Adicide)
-- [Luiz Heytor](https://github.com/NoxHG)
-- [Luyza](https://github.com/mari1aluyza)
-- [Mateus "C?" Lemos](https://github.com/archangello)
-- [Miguel Alexandre](https://github.com/M1guel_Alexandre)
-- [Moisés](https://github.com/kjzeyss)
-- [Ravi Rodrigues](https://github.com/raviaguiar)
-- [Renan Azevedo](https://github.com/MrRBAzevedo)
-- [Sara](https://github.com/hilflerty)
-- [Vitor Carvalho](https://github.com/Vaert4201)
-- [Vitor Emidio](https://github.com/VoiidHead)
-
 ## O Que faz o jogador ganhar? O que faz Perder?
 
 O Jogador vai ter um sistema de vida, o HP, assim como o inimigo, e quando esse HP zera, o inimigo, ou o player morre.
@@ -116,3 +73,44 @@ if situacao_desempate == True:
          break
 
 ```
+
+[referência de outros jogos]
+   - Jogos de turno da franquia Pokémon
+   - Seleção de personagens e mapas como em jogos de luta (Street Fighter, Mortal Kombat, ...)
+
+### Design do jogo
+
+FIXME [Link para o figma] ou [Rascunhos das telas em papel]
+
+FIXME [Elementos áudio visuais do jogo (sprites, fundos, etc) são autorais ou de terceiros? construídos ou baixados de qual lugar?]
+
+FIXME [Descreva a jogabilidade]
+
+FIXME [Qual a engine ([pygame](https://www.pygame.org/), [pygame zero](https://pygame-zero.readthedocs.io/), [godot](https://godotengine.org/), [unreal](https://www.unrealengine.com/), [unity](https://unity.com/), [GameMaker](https://gamemaker.io/), [construct](https://www.construct.net/), [love2d](https://love2d.org/), [cry engine](https://www.cryengine.com/), [gideros](https://www.gideros.rocks/))? Por que escolheram a engine?]
+
+### Demo do jogo
+
+FIXME [Vídeo do jogo]
+
+FIXME [Como fazer para jogar?]
+
+---
+## Equipe
+- [Davi Az.](https://github.com/Mazvedo) 
+- [isadora](https://github.com/isadoralidynara)
+- [João Gabriel](https://github.com/jvsziinn)
+- [Kaun](https://github.com/kkauankauan19x)
+- [Kristhyan](https://github.com/kristhyanlima-svg)
+- [Leonardo Ataide Minora](https://github.com/leonardo-minora)
+- [Lorena](https://github.com/Lores034)
+- [Lucas Gabriel](https://github.com/Adicide)
+- [Luiz Heytor](https://github.com/NoxHG)
+- [Luyza](https://github.com/mari1aluyza)
+- [Mateus "C?" Lemos](https://github.com/archangello)
+- [Miguel Alexandre](https://github.com/M1guel_Alexandre)
+- [Moisés](https://github.com/kjzeyss)
+- [Ravi Rodrigues](https://github.com/raviaguiar)
+- [Renan Azevedo](https://github.com/MrRBAzevedo)
+- [Sara](https://github.com/hilflerty)
+- [Vitor Carvalho](https://github.com/Vaert4201)
+- [Vitor Emidio](https://github.com/VoiidHead)
