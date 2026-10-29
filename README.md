@@ -31,7 +31,6 @@ FIXME [O que faz o jogador ganhar? O que faz perder?]
 FIXME [referência de outros jogos]
    - Jogos de turno da franquia Pokémon
    - Seleção de personagens e mapas como em jogos de luta (Street Fighter, Mortal Kombat, ...)
-   - 
 
 ### Design do jogo
 
