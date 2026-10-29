@@ -68,3 +68,51 @@ FIXME [Como fazer para jogar?]
 - [Sara](https://github.com/hilflerty)
 - [Vitor Carvalho](https://github.com/Vaert4201)
 - [Vitor Emidio](https://github.com/VoiidHead)
+
+## O Que faz o jogador ganhar? O que faz Perder?
+
+O Jogador vai ter um sistema de vida, o HP, assim como o inimigo, e quando esse HP zera, o inimigo, ou o player morre.
+
+Exemplo:
+
+```python
+HP_PLAYER = 150
+vivo = True
+if HP_PLAYER <= 0:
+   vivo = False
+```
+
+Tambem haverá um TIMER que definine a duração total da partida, e se esse timer acabar, haverá um desempate, ou seja:  
+DESEMPATE!  
+Inimigo = 120HP  
+Player  = 126HP
+
+Ambos vão começar a ganhar dano, até a vida de um chegar a zero, e quem chegar a zero primeiro, perde. Se ambos tiverem com a mesma quantia de vida, dá empate.
+
+Exemplo de código:
+```python
+
+# SITUAÇÃO DE EMPATE
+vida_player  = 120 # maximo de vida é 200
+vida_inimigo = 120
+vivo         = True
+timer        = 5 # minutos, nesse exemplo
+situacao_desempate = False
+
+if timer <= 0:
+   situacao_desempate = True
+
+if situacao_desempate == True:
+   for vida in range(200):
+      vida_player  - 1
+      vida_inimigo - 1
+
+      if vida_player <= 0:
+         vivo = False
+         break
+      
+      if vida_inimigo <= 0:
+         print("Parabens! voce ganhou!")
+         break
+
+```
