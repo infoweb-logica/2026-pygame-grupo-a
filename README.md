@@ -53,7 +53,7 @@ FIXME [Como fazer para jogar?]
 - [João Gabriel](https://github.com/jvsziinn)
 - [Kaun](https://github.com/kkauankauan19x)
 - [Kristhyan](https://github.com/kristhyanlima-svg)
-- [Leonardo Ataide Minora](https://github.com/leonardo-minora) ok
+- [Leonardo Ataide Minora](https://github.com/leonardo-minora)
 - [Lorena](https://github.com/Lores034)
 - [Lucas Gabriel](https://github.com/Adicide)
 - [Luiz Heytor](https://github.com/NoxHG)
