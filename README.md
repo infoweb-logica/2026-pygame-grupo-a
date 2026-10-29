@@ -22,7 +22,7 @@
 
 ### Resumo do jogo
 
-FIXME [Um paragráfo descrevendo o jogo]
+O jogo será baseado em uma mecânica de luta em turnos entre dois jogadores, semelhante àqueles de referência estudados pela equipe. O cenário do jogo representará espaços do IFRN, campus Natal-Central, e seus personagens, as principais Diretorias Acadêmicas. Cada um desses personagens possuirá poderes com diferentes mecânicas, sempre inspirados nos estereótipos dessas diretorias.
 
 FIXME [Um paragráfo descrevendo o tipo do jogo e suas metáforas]
 
