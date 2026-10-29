@@ -24,9 +24,10 @@
 
 O jogo será baseado em uma mecânica de luta em turnos entre dois jogadores, semelhante àqueles de referência estudados pela equipe. O cenário do jogo representará espaços do IFRN, campus Natal-Central, e seus personagens, as principais Diretorias Acadêmicas. Cada um desses personagens possuirá poderes com diferentes mecânicas, sempre inspirados nos estereótipos dessas diretorias.
 
+### Descrevendo o tipo do jogo e suas metáforas
 FIXME [Um paragráfo descrevendo o tipo do jogo e suas metáforas]
 
-## O Que faz o jogador ganhar? O que faz Perder?
+### O Que faz o jogador ganhar? O que faz Perder?
 
 O Jogador vai ter um sistema de vida, o HP, assim como o inimigo, e quando esse HP zera, o inimigo, ou o player morre.
 
@@ -74,9 +75,9 @@ if situacao_desempate == True:
 
 ```
 
-[referência de outros jogos]
-   - Jogos de turno da franquia Pokémon
-   - Seleção de personagens e mapas como em jogos de luta (Street Fighter, Mortal Kombat, ...)
+### Referência de outros jogos
+- Jogos de turno da franquia Pokémon
+- Seleção de personagens e mapas como em jogos de luta (Street Fighter, Mortal Kombat, ...)
 
 ### Design do jogo
 
