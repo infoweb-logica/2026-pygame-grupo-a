@@ -48,12 +48,12 @@ FIXME [Como fazer para jogar?]
 
 ---
 ## Equipe
-- [Davi Az.](https://github.com/Mazvedo)
+- [Davi Az.](https://github.com/Mazvedo) 
 - [isadora](https://github.com/isadoralidynara)
 - [João Gabriel](https://github.com/jvsziinn)
 - [Kaun](https://github.com/kkauankauan19x)
 - [Kristhyan](https://github.com/kristhyanlima-svg)
-- [Leonardo Ataide Minora](https://github.com/leonardo-minora)
+- [Leonardo Ataide Minora](https://github.com/leonardo-minora) ok
 - [Lorena](https://github.com/Lores034)
 - [Lucas Gabriel](https://github.com/Adicide)
 - [Luiz Heytor](https://github.com/NoxHG)
