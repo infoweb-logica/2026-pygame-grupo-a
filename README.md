@@ -79,6 +79,7 @@ if situacao_desempate == True:
 
 ### Design do jogo
 [Jogabilidade do jogo]
+
 A mecânica principal do jogo é baseada em combate em turnos alternados, com ataques e habilidades únicas para cada personagem.
 Durante o combate, o jogador terá três opções de ataque, incluindo uma habilidade especial, selecionáveis por botões na tela ou por ações do teclado personalizáveis.
 Os personagens e cenários são escolhidos antes da luta pelos jogadores.
