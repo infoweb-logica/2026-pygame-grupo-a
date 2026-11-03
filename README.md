@@ -80,12 +80,15 @@ if situacao_desempate == True:
 - Seleção de personagens e mapas como em jogos de luta (Street Fighter, Mortal Kombat, ...)
 
 ### Design do jogo
+[Jogabilidade do jogo]
+A mecânica principal do jogo é baseada em combate em turnos alternados, com ataques e habilidades únicas para cada personagem.
+Durante o combate, o jogador terá três opções de ataque, incluindo uma habilidade especial, selecionáveis por botões na tela ou por ações do teclado personalizáveis.
+Os personagens e cenários são escolhidos antes da luta pelos jogadores.
 
 FIXME [Link para o figma] ou [Rascunhos das telas em papel]
 
 FIXME [Elementos áudio visuais do jogo (sprites, fundos, etc) são autorais ou de terceiros? construídos ou baixados de qual lugar?]
 
-FIXME [Descreva a jogabilidade]
 
 FIXME [Qual a engine ([pygame](https://www.pygame.org/), [pygame zero](https://pygame-zero.readthedocs.io/), [godot](https://godotengine.org/), [unreal](https://www.unrealengine.com/), [unity](https://unity.com/), [GameMaker](https://gamemaker.io/), [construct](https://www.construct.net/), [love2d](https://love2d.org/), [cry engine](https://www.cryengine.com/), [gideros](https://www.gideros.rocks/))? Por que escolheram a engine?]
 
