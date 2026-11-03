@@ -18,6 +18,7 @@
 9. Apagar pasta com o código
 
 ---
+
 ## FIXME [título do jogo]
 
 ### Resumo do jogo
