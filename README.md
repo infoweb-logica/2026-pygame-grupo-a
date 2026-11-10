@@ -2,6 +2,7 @@
 
 ## Guias
 - [guia do desenvolvedor](https://github.com/infoweb-logica/2026-pygame-grupo-a/wiki/dev)
+- [guia de pastas](http://github.com/infoweb-logica/2026-pygame-grupo-a/wiki/Pastas) by Japão
 ---
 
 ## FIXME [título do jogo]
