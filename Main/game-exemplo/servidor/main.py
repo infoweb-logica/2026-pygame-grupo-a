@@ -1,4 +1,26 @@
 import socket
+import threading
+
+class Jogador:
+    def __init__(self, conexao, endereco, nome, cor):
+        self.conexao = conexao
+        self.endereco = endereco
+        self.nome = nome
+        self.cor = cor
+        self.posicao = (0, 0)  # Posição inicial do jogador
+
+jogadores = []
+
+def jogador(conexao, endereco):
+  while True:
+    conteudo = conexao.recv(1024).decode("utf-8")
+    if conteudo:
+      mensagem = conteudo.split(",")
+      if mensagem[0] == "NOVO":
+        jogador_novo = Jogador(conexao, endereco, f"Jogador{len(jogadores)+1}", (int(mensagem[1]), int(mensagem[2]), int(mensagem[3])))
+        jogadores.append(jogador_novo)
+      print(f"[POSIÇÃO RECEBIDA] Do jogador {endereco}: {conteudo}")
+  conexao.close()  # Fecha a conexão com o cliente quando ele desconectar
 
 def iniciar_servidor():
   # 1. Cria o socket (AF_INET = IPv4, SOCK_STREAM = TCP)
@@ -10,8 +32,8 @@ def iniciar_servidor():
   # 2. Define o endereço (IP) e a porta
   # Usar 'localhost' ou '127.0.0.1' significa que apenas sua máquina conecta
   # Usar '' (string vazia) aceita conexões de qualquer IP na rede local
-  host = "192.168.56.1"
-  porta = 8001
+  host = "10.25.2.225"
+  porta = 8004
 
   # 3. Associa o socket ao host e à porta
   servidor.bind((host, porta))
@@ -25,22 +47,11 @@ def iniciar_servidor():
       # 5. Aceita a conexão de um cliente (bloqueia até alguém conectar)
       conexao_cliente, endereco_cliente = servidor.accept()
       print(f"[CONEXÃO] Conectado com sucesso ao cliente: {endereco_cliente}")
+      threading.Thread(target=jogador, args=(conexao_cliente, endereco_cliente)).start()  # Cria uma nova thread para lidar com o jogador conectado
 
-      # 6. Recebe os dados enviados pelo cliente (tamanho máximo do buffer: 1024 bytes)
-      dados_recebidos = conexao_cliente.recv(1024)
-
-      if dados_recebidos:
-        mensagem = dados_recebidos.decode("utf-8")
-        print(f"[MENSAGEM RECEBIDA] {mensagem}")
-
-        # 7. Envia uma resposta de volta ao cliente
-        resposta = "Mensagem recebida com sucesso pelo servidor!"
-        conexao_cliente.sendall(resposta.encode("utf-8"))
-
-      # 8. Fecha a conexão com este cliente específico
-      conexao_cliente.close()
-      print(f"[CONEXÃO] Conexão encerrada com {endereco_cliente}\n")
-
+  except Exception as e:
+    print(f"[ERRO] Ocorreu um erro: {e}")
+    conexao_cliente.close()  # Fecha a conexão com o cliente em caso de erro
   except KeyboardInterrupt:
     print("\n[SERVIDOR] Servidor encerrado manualmente.")
   finally:

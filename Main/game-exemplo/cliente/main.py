@@ -1,5 +1,6 @@
 import pygame  # Importa a biblioteca Pygame
 import random  # Importa a biblioteca random para gerar números aleatórios
+import servidor
 
 # ── 1. Inicialização ────────────────────────────────────────────────────────
 pygame.init()  # Inicializa todos os módulos do Pygame
@@ -19,12 +20,17 @@ rodando = True
 class Jogador:
     def __init__(self):
         self.posicao = (20, 20)  # Posição aleatória do jogador
+        self.cor = (255, 0, 0)  # Cor do jogador (vermelho)
 
     @classmethod
     def criarComPosicaoAleatoria(classe):
         jogador = classe()
         jogador.posicao = (random.randint(0, LARGURA), random.randint(0, ALTURA))
+        jogador.mudar_cor_aleatorio()  # Define uma cor aleatória para o jogador
         return jogador
+
+    def mudar_cor_aleatorio(self):
+        self.cor = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
 
     def x(self):
         return self.posicao[0]
@@ -44,6 +50,8 @@ class Jogador:
             self.posicao = (x + 10, y)
 
 jogador = Jogador.criarComPosicaoAleatoria()  # Cria uma instância da classe Jogador
+
+servidor.conectar(jogador.cor)
 
 while rodando:
     # Preenche a tela com a cor de fundo a cada frame
@@ -65,6 +73,7 @@ while rodando:
                 jogador.mover("esquerda")  # Move o jogador para a esquerda
             elif evento.key == pygame.K_RIGHT:  # Se a tecla SETA PARA DIREITA for pressionada
                 jogador.mover("direita")  # Move o jogador para a direita
+            servidor.enviar_posicao(jogador.x(), jogador.y())  # Envia a posição atual do jogador para o servidor            
 
         # Clique do mouse dentro da janela
         # if evento.type == pygame.MOUSEBUTTONDOWN:
@@ -72,7 +81,7 @@ while rodando:
         #     rodando = False
 
     # Desenha o jogador na tela
-    pygame.draw.circle(tela, (255, 0, 0), jogador.posicao, 20)  # Desenha um círculo vermelho para o jogador
+    pygame.draw.circle(tela, jogador.cor, jogador.posicao, 20)  # Desenha um círculo na cor do jogador
 
     # Atualiza o conteúdo exibido na janela
     pygame.display.flip()
