@@ -74,7 +74,7 @@ FIXME [Link para o figma] ou [Rascunhos das telas em papel]
 FIXME [Elementos áudio visuais do jogo (sprites, fundos, etc) são autorais ou de terceiros? construídos ou baixados de qual lugar?]
 
 
-Engine: pygame(https://pygame-zero.readthedocs.io/)
+Engine: [Pygame - Community Edition](https://pyga.me/)
 
 ### Demo do jogo
 
